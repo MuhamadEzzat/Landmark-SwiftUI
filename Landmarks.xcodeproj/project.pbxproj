@@ -20,6 +20,7 @@
 		437B29B9290014D7002C42F2 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437B29B8290014D7002C42F2 /* LandmarkRow.swift */; };
 		437B29BB290020AE002C42F2 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437B29BA290020AE002C42F2 /* LandmarkList.swift */; };
 		437B29BD290023F1002C42F2 /* LandmarkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437B29BC290023F1002C42F2 /* LandmarkDetails.swift */; };
+		43DD7DE72A9CC8B60051A819 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7DE62A9CC8B60051A819 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		437B29B8290014D7002C42F2 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		437B29BA290020AE002C42F2 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		437B29BC290023F1002C42F2 /* LandmarkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetails.swift; sourceTree = "<group>"; };
+		43DD7DE62A9CC8B60051A819 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		437B29B329000E64002C42F2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				43DD7DE52A9CC89A0051A819 /* Login */,
 				4326601C28FECBCF00575D6A /* ContentView.swift */,
 				4368CD2E290161DD0049B212 /* Helpers */,
 				4368CD2F290161F00049B212 /* Landmarks */,
@@ -132,6 +135,14 @@
 				436EF70028FFF90F009E3EAB /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		43DD7DE52A9CC89A0051A819 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				43DD7DE62A9CC8B60051A819 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				436F391B28FEF2F300BE7815 /* CircleImage.swift in Sources */,
 				436EF70328FFF932009E3EAB /* Landmark.swift in Sources */,
 				437B29B9290014D7002C42F2 /* LandmarkRow.swift in Sources */,
+				43DD7DE72A9CC8B60051A819 /* LoginView.swift in Sources */,
 				437B29B629000E89002C42F2 /* ModelData.swift in Sources */,
 				437B29BD290023F1002C42F2 /* LandmarkDetails.swift in Sources */,
 			);
